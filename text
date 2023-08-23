@@ -1,0 +1,55 @@
+"name": ""
+"description": ""
+"target": ""
+"benefits" : ""
+"medias":""
+
+# ROUTINEONE
+
+{
+  "routine": {
+    "exerciceOne": {
+"name": "Etirement latéral"
+"description": "Penchez la tête vers l'avant et légèrement vers la droite.
+Avec votre main droite, tirez doucement votre tête vers le bas.
+Vous sentirez un étirement agréable et facile le long de la partie arrière gauche de votre cou.
+Maintenez la position pendant environ 30 secondes.
+Répétez l'opération de l'autre côté."
+"target": "cervical"
+"benefits": "Soulagement des tensions"
+"medias":"https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2022/02/22/15/39/wf6191069neckstretchv2468x263.jpg"
+},
+"exerciceTwo": {
+"name": "Ouverture des épaules"
+"description": "Debout, mains croisées derrière le dos, tendre les bras et les étirer légèrement vers l’arrière et le haut. Le tronc reste stable, les épaules basses, la nuque relâchée.
+Etirement statique: rester dans cette position. Etirement dynamique: lever et ramener lentement les bras."
+"target": "epaules"
+"benefits": "Soulager les tensions"
+"medias": "https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/2016/05/d382-225x162.jpg
+},
+"exerciceThree": {
+"name": "Etirement dorsaux"
+"description": "Pousser les fesses vers l'arrière. Pousser les mains vers l'avant. Avoir les jambes tendues mais sans forcer. 
+Conserver autant que possible la cambrure naturelle lombaire en avançant le nombril."
+"target": "dos"
+"benefits": "Souplesse et mobilité"
+"medias":"https://entrainement-sportif.fr/etirement-dos-2.jpg"
+},
+"exerciceFour": {
+"name": "Etirement chaine postérieure"
+"description": "Commencer par plier le genou de la jambe posée sur la chaise (l’aide d’un support sera plus agréable). Pousser la fesse du côté étiré en arrière puis pencher le torse sans courber le bas du dos.
+Attendre dans cette position pendant 30 secondes. Tirer le talon dans la chaise avec force pendant 15 secondes. Pousser le talon devant soi avec force pendant 15 secondes."
+"target": "hanches"
+"benefits": "Souplesse, soulagement"
+"medias":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxqQbJDSQLoi2fX8zC9xmLtaq8r2z_9uhR1A&usqp=CAU"
+},
+"exerciceFive": {
+"name": "Etirement fessiers/muscle pyramidal"
+"description": "Assis sur une chaise, placez votre cheville droite sur le genou gauche et relevez la jambe gauche (fléchie) de manière à amener votre jambe perpendiculaire à votre bassin.
+Gardez le bas du dos droit, de préférence plaqué contre le dossier. Vous devez ressentir un étirement dans la partie latérale du fessier."
+"target": "jambes"
+"benefits": "Soulagement des tensions"
+"medias":"https://youmatter.world/app/uploads/sites/3/2020/03/e%CC%81tirement-piriforme-pyramidal-fessier-assis.jpg"
+}}
+  }
+}
