@@ -1,21 +1,28 @@
-const express = require("express");
-const connectDB = require("./config/db");
-const dotenv = require("dotenv").config();
-const port = 5000;
+const express = require('express'); // import express
+const cors = require('cors'); // import cors
+const connectDB = require('./config/db');
+const dotenv = require('dotenv') // import dotenv
 
-// Connexion à la DB
+// path du fichier .env : app-js-fullStack\backend\.env : 
+dotenv.config({ path: '../.env' });
+
+
+const port = 5200; // port to run server on
+
+
+// connexion à la D.B : 
 connectDB();
 
-const app = express();
+const app = express(); // create express 
 
-// Middleware qui permet de traiter les données de la Request
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+/** Middleware : permet de traiter les données avant de les envoyer au client (Req) 
+ou 
+avant de les envoyer à la base de données (Res) (ex : vérifier si l'utilisateur est connecté avant de lui envoyer les données)  ; **/
+app.use(cors()); // use cors middleware to allow cross-origin requests
+  app.use(express.json()); // use express middleware to parse json bodies
+app.use(express.urlencoded({ extended: false })); // use express middleware to parse urlencoded bodies
 
-// app.use("/post", PostRoutes.setPosts);
-app.use("/post", require("./routes/post.routes"));
+app.use("/post", require("./routes/post.routes")); // use post routes for requests to /post
 
-// Lancer le serveur
-app.listen(port, () => console.log("Le serveur a démarré au port  " + port));
-
-
+//Lancer le serveur : node server.js
+app.listen({port}, () => console.log(`Le serveur a démarré sur le port ${port}`)); // listen for requests

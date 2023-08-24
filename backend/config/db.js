@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const connectDB = async () => {
   try {
     mongoose.set("strictQuery", false);
-    await mongoose.connect(process.env.MONGO_URI);
+    await mongoose.connect("mongodb+srv://malikgaetanmarine:CiS21082023@malikgaetanmarine.lojlyvo.mongodb.net/codinginshape");
       console.log("Mongo connecté")
   } catch (err) {
     console.log(err);
@@ -12,3 +12,4 @@ const connectDB = async () => {
 };
 
 module.exports = connectDB;
+
